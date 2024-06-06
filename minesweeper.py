@@ -4,15 +4,15 @@
 
 from minesweeper_generator import generate_board
 
-board = generate_board(size_x=30, size_y=16, bombs=99)
+board = generate_board(size_x=16, size_y=16, bombs=40)
 
 for i in board:
     line = ""
     for j in i:
         if j == 0:
-            line += "· "
+            line += "  "
         elif j == -1:
-            line += "⬤ "
+            line += "* "
         else:
             line += str(j) + " "
     print(line)
