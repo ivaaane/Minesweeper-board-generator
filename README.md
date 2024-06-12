@@ -1,9 +1,9 @@
 💣 Minesweeper board generator 💣  
 =
-![Language](https://img.shields.io/badge/language-python-blue.svg)
-![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
 This is a small repository for a Python code to generate a Minesweeper board. It can be used to make Minesweeper games or related projects.
+
+This project was made as a practice for Python, so it's pretty small :p
 
 Explanation
 --
